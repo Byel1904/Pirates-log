@@ -26,7 +26,7 @@ header {
 }
 
 .Logotipo {
-    width: 60px;
+    width: 90px;
 }
 
 ul {
@@ -110,7 +110,8 @@ p {
 
 .card {
     width: 32%;
-    padding: 32px 32px;
+    min-height: 300px;
+    padding: 32px;
 }
 
 .card h3 {
@@ -124,28 +125,12 @@ p {
     border-radius: 20px;
 }
 
-.zoro1 {
-    width: 60px;
-}
-
-.nami1 {
-    width: 60px;
-}
-
-.sanji1 {
-    width: 60px;
-}
-
-.robin1 {
-    width: 60px;
-}
-
-.usopp1 {
-    width: 60px;
-}
-
-.luffy1 {
-    width: 60px;
+.card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .divImagens {
